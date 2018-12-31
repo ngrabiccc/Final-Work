@@ -1,0 +1,258 @@
+body{
+    max-width: 1500px;
+    overflow-x: hidden;
+}
+.strong{
+    font-size: 35px;
+    font-weight: 600;
+}
+.text{
+    font-size: 23px;
+}
+input{
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 2px solid #36C5F5;
+    font-size: 34px;
+    outline: none;
+   color: #36C5F5;
+   width: 290px;
+  
+}
+input::placeholder{
+    color: #36C5F5;
+}
+input:hover{
+    background: #C7EFFC;
+    width: 290px;
+}
+.button{
+    color: white;
+     font-size: 14px;
+     font-weight: 600;
+     background: #36C5F5;
+     width: 150px;
+     height: 50px;
+     border: 1px solid #36C5F5;
+      cursor: pointer;
+      
+   }
+/*navigacija*/
+.nav{
+    margin: 0;
+    height: 100px;
+    width: 1600px;
+   background-color: #E0F8EC;
+   transform: translateY(-10px);
+}
+.naslov{
+    font-size: 85px;
+    position: absolute;
+    top: 0;   
+    left: 290px;
+font-weight: 600;
+color: black;
+}
+.textuznaslov{
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    top: 34px;
+    left:420px;
+    color: black;
+}
+.iconsrce{
+    color: #36C5F5;
+    position: absolute;
+    font-size: 15px;
+    left: -140px;
+    top: -3px;
+}
+
+#adjust{
+    position: absolute;
+    left: 1240px;
+    top: 20px;
+    font-size: 25px;
+   
+    padding: 20px;
+   }
+   #adjust:hover{
+      
+       background: #C7EFFC;
+       
+   }
+.joinus{
+    position: absolute;
+    top: 0;
+    left: 1370px;
+    height: 95px;
+    width: 110px;
+    font-size: 19px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #36C5F5;
+    color: white;
+    text-decoration: none;
+}
+.joinus:hover{
+    text-decoration: none;
+    color: lightblue;
+   
+}
+/*heder*/
+.velikaslika{
+    background: url(header-background.png);
+   background-size:auto;
+   background-repeat: no-repeat;
+   height: 400px;
+   width: 1400px;
+   padding-top: 100px;
+   transform: translate(200px, -20px);
+  
+}
+
+.header{
+    background: #E0F8EC;
+    background-size: cover;
+    transform: translate(-10px,-30px);
+    height: 436px;
+    width: 1600px;
+}
+/*prvi dio*/
+.section1{
+   text-align: center;
+   transform: translateY(70px);
+}
+.strong1{
+    transform: translateX(-50px);
+    font-size: 50px;
+    font-weight: 570;
+}
+.strong2{
+    font-size: 20px;
+    font-weight: 600;
+}
+#icon1{
+    font-size: 13px;
+    color: #5499C7  ;
+    padding: 13px;
+    background-color: lightblue;
+    border-left: 10px solid white;
+    text-decoration: none;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #C7EFFC 50%, #36C5F5 50%);
+    transition: background-position 1s;
+}
+#icon1:hover{
+    background-position: 20%-100% ;
+    color:whitesmoke;
+}
+.icons{
+    border-left: 10px solid transparent;
+}
+
+/*drugi dio*/
+.section2{
+    float: left;
+    position: absolute;
+    top: 1000px;
+    left:300px;
+
+}
+.joinus2{
+    text-decoration: none;
+    color:#36C5F5;
+}
+.joinus2:hover{
+    text-decoration: none;
+    width: 10px;
+    background: #C7EFFC;
+}
+.imagecharity{
+    background: url(image-charity.png);
+    background-size: cover;
+   height: 340px;
+     width: 610px;
+    position: absolute;
+    top: 950px;
+    left: 838px;
+ }
+ /*treci dio*/
+.section3{
+  text-align: center;
+  transform: translateY(600px);
+  background: url(contacts.png);
+  background-size: cover;
+  width: 1600px;
+  height: auto;
+}
+
+.strong5{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 6px;
+   }
+
+ 
+ .text4{
+     border-top: 10px solid transparent;
+     border-bottom: 15px solid transparent;
+     font-size: 15px;
+ }
+
+   /*cetvrdi dio*/
+   .section4{
+       float: right;
+       transform: translate(-180px, 840px);
+       text-align: right;
+       
+    }
+    .handsake{
+        float: left;
+         background: url(handsake.png);
+         transform: translate(100px, 560px);
+         width: 150%;
+         height: 300px;
+        background-repeat: no-repeat;
+    }
+  /*peti dio*/
+  .section5{
+      position: absolute;
+      top: 2480px;
+      text-align: center;
+      background: #C7EFFC;
+      width: 100%;
+      height: 380px;
+     padding-top: 90px;
+  }
+
+.input1{
+    background: #C7EFFC;
+}
+
+.text10{
+    font-size: 30px;
+}
+/*sesti dio*/
+.section6{
+    position:absolute;
+    top: 2960px;
+    width: 100%;
+    background: white;
+    border-top: 20px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-bottom: 20px;
+}
+.text7 {
+    float: left;
+    transform: translateX(100px);
+}
+.text8{
+float: right;
+transform: translateX(-100px);
+}
